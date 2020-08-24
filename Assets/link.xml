@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Opc.Ua">
+		<type fullname="Opc.Ua.Client" preserve="all"/>
+		<type fullname="Opc.Ua.Configuration" preserve="all"/>
+		<type fullname="Opc.Ua.Core" preserve="all"/>
+	</assembly>
+  <assembly fullname="System.Core">
+    <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all" />
+  </assembly>
+</linker>
